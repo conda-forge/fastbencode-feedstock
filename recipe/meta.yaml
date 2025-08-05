@@ -1,4 +1,4 @@
-{% set version = "0.3.2" %}
+{% set version = "0.3.5" %}
 
 package:
   name: fastbencode
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fastbencode/fastbencode-{{ version }}.tar.gz
-  sha256: a34c32c504b0ec9de1a499346ed24932359eb46234b28b70975a50fdfaa14ab5
+  sha256: 2445663753bb41ffba1c43e9e94e7c1145d1dd6f7c8f62a97f0585063ee449c3
 
 build:
   number: 0
