@@ -10,7 +10,7 @@ source:
   sha256: e96fd955d6d5980a913730ecbf838ca2863a6420f0d7c8d189087caa83393f21
 
 build:
-  number: 0
+  number: 1
   script:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
     - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
