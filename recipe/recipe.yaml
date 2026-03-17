@@ -1,5 +1,5 @@
 context:
-  version: "0.3.9"
+  version: "0.3.10"
 
 package:
   name: fastbencode
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fastbencode/fastbencode-${{ version }}.tar.gz
-  sha256: ded887be2e7eb4bc4dc27742ff5ef2242e13dc169348dc2c91cc5055aa2f8285
+  sha256: 849b6872b6dcbace6f8a7b0c094fc3f5b2ab17aa987e4efb6041293487b360e7
 
 build:
   number: 0
